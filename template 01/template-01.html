@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title></title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <style type="text/css">
+        body {
+            font-family: helvetica, Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            -webkit-text-size-adjust: 100%;
+            -ms-text-size-adjust: 100%;
+        }
+
+        table,
+        td {
+            border-collapse: collapse;
+            mso-table-lspace: 0pt;
+            mso-table-rspace: 0pt;
+        }
+
+        img {
+            border: 0;
+            height: auto;
+            line-height: 100%;
+            outline: none;
+            text-decoration: none;
+            -ms-interpolation-mode: bicubic;
+        }
+
+        p {
+            display: block;
+            margin: 13px 0;
+        }
+
+        a {
+            border: none;
+            text-decoration: none;
+        }
+    </style>
+</head>
+
+<body style="background-color: #e5e5e5">
+    
+    <div style="background-color: #e5e5e5">
+        <!-- header -->
+        <div style=" background: #f4f4f4; background-color: #f4f4f4; margin: 0px auto; max-width: 600px;">
+            <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation"
+                style="background: #f4f4f4; background-color: #f4f4f4; width: 100%">
+                <tbody>
+                    <tr style="height: 104px">
+                        <td style="height: 104px">
+                            <img style="margin-left: 67px; width: 137.73px; height: 38.57px;" src="./images/horizontal_logo.png"
+                                alt="Swimming Nature logo" />
+                        </td>
+                        <td style="height: 104px; display: flex; flex-direction: row; flex-wrap: nowrap; align-items: center; justify-content: center; gap: 0.7rem;">
+                            <a href="">
+                                <img src="./images/facebook_icon.png" style="width: 7.38px; height: 14.13px;" alt="Our Facebook" />
+                            </a>
+                            <a href="">
+                                <img src="./images/instagram_icon.png" style="width: 14.13px; height: 14.13px;" alt="Our Instagram" />
+                            </a>
+                            <a href="">
+                                <img src="./images/linkedin_icon.png" style="width: 14.13px; height: 14.13px;" alt="Our Linkedin" />
+                            </a>
+                            <a href="" style="display: flex; align-items: center; justify-content: center; width: 115.74px; height: 31.07px; padding: 3px 15px; background-color: #084f9e;  border-radius: 8px; gap: 0.25rem;">
+                                <img style="width: 8.25px; height: 8.27px; margin: 0 5px 0 0;" src="images/external_icon.png" alt="visit website"><span style="font-weight: bold; color: #F5F7E8; font-size: 12pt;">Our Website</span>
+                            </a>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <!-- banner -->
+        <div style=" margin: 0px auto; max-width: 600px;">
+            <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation"
+                style=" width: 100%">
+                <tbody>
+                    <tr>
+                        <td>
+                            <img src="./images/banner.jpg" alt="Swimming Nature logo" />
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <!-- content -->
+        <div style=" margin: 0px auto; max-width: 600px; margin: 0 20px;">
+            <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation"
+                style=" width: 100%">
+                <tbody>
+                    <tr>
+                        <td>
+                            <div style="font-family:Helvetica;font-size:15px;font-style:normal;font-weight:bold;letter-spacing:-0.5px;line-height:115%;text-align:center;color:#111111; margin: 20px 0;"><h2>Hi ${givenname},</h2></div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                                <p style="font-size: 13px;">As a valued customer of Swimming Nature we are contacting you to let you know about a change to the way in which we make future term bookings.</p>
+                                <p style="font-size: 13px;">Acting on feedback from customers who have lost spaces on our swim school between terms and in an effort to streamline our renewal process, we will be rolling over all bookings from the ${previous_enrolment_term} term onto the ${term}. The new term is due to start on ${firstclassdate} and your space for ${studentname} will now be guaranteed should you wish to keep it.</p>
+                                <p style="font-size: 13px;">How does this affect you?</p>
+                                <p style="font-size: 13px;">If you wish to guarantee your space and continue your booking, you don’t need to do anything!</p>
+                                <p style="font-size: 13px;">We will automatically re-enrol you onto ${term} and take a payment of #if (${pending_payment_amount}) ${pending_payment_amount} #else ${totalpayment} #end on or around ${auto_renewal_date}#if (${default_card_trailing_digits}) from card number ending ${default_card_trailing_digits}#else.#end</p>
+                                <p style="font-size: 13px;">If for any reason you do not wish to renew your booking, simply log into your account using the link below to cancel for next term and make the space available for somebody else.If for any reason you do not wish to renew your booking, simply log into your account using the link below to cancel for next term and make the space available for somebody else.</p>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <!-- content cta -->
+        <div style=" margin: 0px auto; max-width: 600px;">
+            <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style=" width: 100%">
+                <tbody>
+                    <tr>
+                        <td>
+                            <div style="text-align: center; margin: 20px;">
+                                <a href="" style="color: #084f9e; border: solid 2px #084f9e; padding: 10px 35px; background-color: #ffffff; border-radius: 10px; text-transform: uppercase; font-size: 10pt; font-weight: bold;">Login now</a>
+                            </div>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div style=" margin: 0px auto; max-width: 600px; margin: 0 20px;">
+            <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation"
+                style=" width: 100%">
+                <tbody>
+                    <tr>
+                        <td>
+                                    <p style="font-size: 13px;">Account Number: ${accountnumber} #if( $showaccountbalance == "true" )</p>
+                                    <p style="font-size: 13px;">Your current account balance is: ${accountbalance}. When you re-enrol, the price will be automatically deducted from your balance. Included below is a summary of your booking. #end</p>
+                                    <p style="font-size: 13px;">If you have any questions, feel free to reply by email.</p>
+                                    <p style="font-size: 13px;">Kind regards,<br>The Swimming Nature Team</p>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <!-- footer -->
+        <div style=" background: #0A2E66; background-color: #0A2E66; margin: 0px auto; max-width: 600px;">
+            <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation"
+                style="background: #0A2E66; background-color: #0A2E66; width: 100%">
+                <tbody>
+                    <tr>
+                        <td>
+                            <div style="display: flex; width: 600px; justify-content: center; margin: 30px; gap: 50px;">
+                                <a href="https://www.facebook.com/swimmingnature">
+                                    <img src="./images/white_facebook_icon.png" alt="">
+                                </a>
+                                <a href="https://www.instagram.com/swimmingnatureuk">
+                                    <img src="./images/white_instagram_icon.png" alt="">
+                                </a> 
+                                <a href="https://www.linkedin.com/company/swimming-nature">
+                                    <img src="./images/white_linkedin_icon.png" alt="">
+                                </a>
+                            </div>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation"
+                style="background: #0A2E66; background-color: #0A2E66; width: 100%">
+                <tbody>
+                    <tr>
+                        <td>
+                            <div style="display: flex; flex-direction: column; justify-content: center; align-content: center;">
+                                <div style="color: #FFFFFF;">LEARN TO SWIM</div>
+                                <div style="color: #87e0d9;">BEAUTIFULLY</div>
+                                <div style="color: #FFFFFF;">FOR LIFE</div>
+                            </div>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <div style="height: 500px; width: 100%;">
+        <h1>fim</h1>
+    </div>
+</body>
+
+</html>
