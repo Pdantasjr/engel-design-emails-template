@@ -7,12 +7,18 @@
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
     <meta name="viewport" content="width=device-width,initial-scale=1" />
     <style type="text/css">
+        * {
+            /* border: 1px solid red; */
+        }
+
         body {
             font-family: helvetica, Arial, sans-serif;
             margin: 0;
             padding: 0;
             -webkit-text-size-adjust: 100%;
             -ms-text-size-adjust: 100%;
+            width: 100% !important;
+            height: 100%;
         }
 
         table,
@@ -40,6 +46,56 @@
             border: none;
             text-decoration: none;
         }
+
+        .logotype {
+            margin-left: 67px;
+            width: 137.73px;
+            height: 38.57px;
+        }
+
+        .header_facebook_icon {
+            width: 7.38px;
+            height: 14.13px;
+        }
+
+        .header_instagram_icon {
+            width: 14.13px;
+            height: 14.13px;
+        }
+
+        .header_linkedin_icon {
+            width: 14.13px;
+            height: 14.13px;
+        }
+
+        @media (max-width: 460px) {
+
+            .logotype {
+                margin-left: 20px;
+                width: 137.73px;
+                height: 38.57px;
+            }
+
+            .header_facebook_icon {
+                display: none;
+            }
+
+            .header_instagram_icon {
+                display: none;
+            }
+
+            .header_linkedin_icon {
+                display: none;
+            }
+        }
+
+        @media (max-width: 360px) {
+            .logotype {
+                margin-left: 10px;
+                width: 137.73px;
+                height: 38.57px;
+            }
+        }
     </style>
 </head>
 
@@ -53,22 +109,20 @@
                 <tbody>
                     <tr style="height: 104px">
                         <td style="height: 104px">
-                            <img style="margin-left: 67px; width: 137.73px; height: 38.57px;"
-                                src="./images/horizontal_logo.png" alt="Swimming Nature logo" />
+                            <img class="logotype" width="560" ; src="./images/horizontal_logo.png"
+                                alt="Swimming Nature logo" />
                         </td>
                         <td
                             style="height: 104px; display: flex; flex-direction: row; flex-wrap: nowrap; align-items: center; justify-content: center; gap: 0.7rem;">
-                            <a href="">
-                                <img src="./images/facebook_icon.png" style="width: 7.38px; height: 14.13px;"
-                                    alt="Our Facebook" />
+                            <a href="https://www.facebook.com/swimmingnature">
+                                <img class="header_facebook_icon" src="./images/facebook_icon.png" alt="Our Facebook" />
                             </a>
-                            <a href="">
-                                <img src="./images/instagram_icon.png" style="width: 14.13px; height: 14.13px;"
+                            <a href="https://www.instagram.com/swimmingnatureuk">
+                                <img class="header_instagram_icon" src="./images/instagram_icon.png"
                                     alt="Our Instagram" />
                             </a>
-                            <a href="">
-                                <img src="./images/linkedin_icon.png" style="width: 14.13px; height: 14.13px;"
-                                    alt="Our Linkedin" />
+                            <a href="https://www.linkedin.com/company/swimming-nature">
+                                <img class="header_linkedin_icon" src="./images/linkedin_icon.png" alt="Our Linkedin" />
                             </a>
                             <a href=""
                                 style="display: flex; align-items: center; justify-content: center; width: 115.74px; height: 31.07px; padding: 3px 15px; background-color: #084f9e;  border-radius: 8px; gap: 0.25rem;">
@@ -87,7 +141,8 @@
                 <tbody>
                     <tr>
                         <td>
-                            <img src="./images/banner.jpg" alt="Swimming Nature logo" />
+                            <img alt="Please enable images to view this content" title="Hero Image" width="560"
+                                style="width: 100%" ; src="./images/banner.jpg" />
                         </td>
                     </tr>
                 </tbody>
@@ -152,6 +207,7 @@
                 </tbody>
             </table>
         </div>
+        <!-- content 2 -->
         <div style=" margin: 0px auto; max-width: 600px; background: #FFFFFF; background-color: #FFFFFF;">
             <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style=" width: 100%">
                 <tbody>
@@ -173,13 +229,13 @@
             </table>
         </div>
         <!-- footer -->
-        <div style=" background: #0A2E66; background-color: #0A2E66; margin: 0px auto; max-width: 600px;">
-            <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation"
-                style="background: #0A2E66; background-color: #0A2E66; width: 100%">
+        <div style=" margin: 0px auto; max-width: 600px; background: #0A2E66; background-color: #0A2E66;">
+
+            <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style=" width: 100%">
                 <tbody>
                     <tr>
                         <td>
-                            <div style="display: flex; width: 600px; justify-content: center; margin: 30px; gap: 50px;">
+                            <div style="display: flex; justify-content: center; gap: 50px;">
                                 <a href="https://www.facebook.com/swimmingnature">
                                     <img src="./images/white_facebook_icon.png" alt="">
                                 </a>
@@ -194,7 +250,7 @@
                     </tr>
                 </tbody>
             </table>
-            <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation"
+            <!-- <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation"
                 style="background: #0A2E66; background-color: #0A2E66; width: 100%">
                 <tbody>
                     <tr>
@@ -208,7 +264,7 @@
                         </td>
                     </tr>
                 </tbody>
-            </table>
+            </table> -->
         </div>
     </div>
 
