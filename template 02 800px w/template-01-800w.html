@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+    <body style="background-color: #ffffff; font-family: 'Poppins', sans-serif; margin: 0; padding: 0; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; width: 100% !important; height: 100%;">
+        <div style="background-color: #ffffff;">
+            <!-- header -->
+            <div style="background: #ffffff; margin: 0px auto; width: 800px">
+                <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="width: 100%">
+                    <tbody>
+                        <tr>
+                            <td>
+                                <img style="display: block;" src="https://raw.githubusercontent.com/Pdantasjr/engel-design-emails-template/main/template%2001/images/1.png" alt="Swimming Nature logo" />
+                            </td>
+                            <td>
+                                <a href="https://www.facebook.com/swimmingnature">
+                                    <img style="display: block;" src="https://raw.githubusercontent.com/Pdantasjr/engel-design-emails-template/main/template%2001/images/2.png" alt="Our Facebook" />
+                                </a>
+                            </td>
+                            <td>
+                                <a href="https://www.instagram.com/swimmingnatureuk">
+                                    <img style="display: block;" src="https://raw.githubusercontent.com/Pdantasjr/engel-design-emails-template/main/template%2001/images/3.png" alt="Our Instagram" />
+                                </a>
+                            </td>
+                            <td>
+                                <a href="https://www.linkedin.com/company/swimming-nature">
+                                    <img style="display: block;" src="https://raw.githubusercontent.com/Pdantasjr/engel-design-emails-template/main/template%2001/images/4.png" alt="Our Linkedin" />
+                                </a>
+                            </td>
+                            <td>
+                                <a href="https://www.swimmingnature.com/" target="_blank">
+                                    <img style="display: block;" src="https://raw.githubusercontent.com/Pdantasjr/engel-design-emails-template/main/template%2001/images/5.png" alt="visit website">
+                                </a>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <!-- banner -->
+            <div style="margin: 0px auto; width: 800px;">
+                <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="width: 100%">
+                    <tbody>
+                        <tr>
+                            <td>
+                                <img alt="Please enable images to view this content" title="Hero Image"
+                                    style="display: block;"
+                                    src="https://raw.githubusercontent.com/Pdantasjr/engel-design-emails-template/main/template%2001/images/banner.png" />
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <!-- content -->
+            <div style="margin: 0px auto; width: 800px; background: #FFFFFF; background-color: #FFFFFF;">
+                <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="width: 100%;">
+                    <tbody>
+                        <tr>
+                            <td>
+                                <div style="margin: 40px 40px 20px 40px;">
+                                    <p style="font-size: 13px;">Hi ${givenname},</p>
+                                    <p style="font-size: 13px;">As a valued customer of Swimming Nature we are contacting
+                                        you to
+                                        let you know about a change to the way in which we make future term bookings.</p>
+                                    <p style="font-size: 13px;">Acting on feedback from customers who have lost spaces on
+                                        our
+                                        swim school between terms and in an effort to streamline our renewal process, we
+                                        will be
+                                        rolling over all bookings from the ${previous_enrolment_term} term onto the ${term}.
+                                        The
+                                        new term is due to start on ${firstclassdate} and your space for ${studentname} will
+                                        now
+                                        be guaranteed should you wish to keep it.</p>
+                                    <p style="font-size: 13px;">How does this affect you?</p>
+                                    <p style="font-size: 13px;">If you wish to guarantee your space and continue your
+                                        booking,
+                                        you don’t need to do anything!</p>
+                                    <p style="font-size: 13px;">We will automatically re-enrol you onto ${term} and take a
+                                        payment of #if (${pending_payment_amount}) ${pending_payment_amount} #else
+                                        ${totalpayment} #end on or around ${auto_renewal_date}#if
+                                        (${default_card_trailing_digits}) from card number ending
+                                        ${default_card_trailing_digits}#else.#end</p>
+                                    <p style="font-size: 13px;">If for any reason you do not wish to renew your booking,
+                                        simply
+                                        log into your account using the link below to cancel for next term and make the
+                                        space
+                                        available for somebody else.If for any reason you do not wish to renew your booking,
+                                        simply log into your account using the link below to cancel for next term and make
+                                        the
+                                        space available for somebody else.</p>
+                                </div>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <!-- content cta -->
+            <div style="margin: 0px auto; width: 800px; background: #FFFFFF; background-color: #FFFFFF;">
+                <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="width: 100%;">
+                    <tbody>
+                        <tr>
+                            <td>
+                                <div style="text-align: center; margin: 0px auto; width: 100%;">
+                                    <a href="https://www.sportingtechnology.com/auth/realms/flow-enrol/protocol/openid-connect/auth?client_id=flow-enrol-web&redirect_uri=https%3A%2F%2Fbook.swimmingnature.com%2Fenrol-web%2Fdashboard%3Fmaster_licensee_id%3D1&state=cbb75f47-9a76-4c90-9c88-cfbbef7b29f9&response_mode=fragment&response_type=code&scope=openid&nonce=eb21d18c-aacf-4878-8842-67f1a8eb7337"
+                                        style="color: #084f9e; border: solid 2px #084f9e; padding: 10px 35px; background-color: #ffffff; border-radius: 10px; text-transform: uppercase; font-size: 10pt; font-weight: bold;">Login
+                                        now</a>
+                                </div>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <!-- content 2 -->
+            <div style="margin: 0px auto; width: 800px; background: #FFFFFF; background-color: #FFFFFF;">
+                <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="width: 100%">
+                    <tbody>
+                        <tr>
+                            <td>
+                                <div style="margin: 20px 40px 40px 40px;">
+                                    <p style="font-size: 13px;">Account Number: ${accountnumber} #if( $showaccountbalance ==
+                                        "true" )</p>
+                                    <p style="font-size: 13px;">Your current account balance is: ${accountbalance}. When you
+                                        re-enrol, the price will be automatically deducted from your balance. Included below
+                                        is
+                                        a summary of your booking. #end</p>
+                                    <p style="font-size: 13px;">If you have any questions, feel free to reply by email.</p>
+                                    <p style="font-size: 13px;">Kind regards,<br>The Swimming Nature Team</p>
+                                </div>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <!-- footer -->
+            <div style="margin: 0px auto; width: 800px; background: #0a2e66; background-color: #0a2e66;">
+                <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="width: 100%">
+                    <tbody>
+                        <tr>
+                            <td><img style="display: block;" src="https://raw.githubusercontent.com/Pdantasjr/engel-design-emails-template/main/template%2001/images/6.png" alt=""></td>
+                            <td><a href="https://www.facebook.com/swimmingnature"><img style="display: block;" src="https://raw.githubusercontent.com/Pdantasjr/engel-design-emails-template/main/template%2001/images/9.png" alt=""></a></td>
+                            <td><a href="https://www.instagram.com/swimmingnatureuk"><img style="display: block;" src="https://raw.githubusercontent.com/Pdantasjr/engel-design-emails-template/main/template%2001/images/8.png" alt=""></a></td>
+                            <td><a href="https://www.linkedin.com/company/swimming-nature"><img style="display: block;" src="https://raw.githubusercontent.com/Pdantasjr/engel-design-emails-template/main/template%2001/images/10.png" alt=""></a></td>
+                            <td><img style="display: block;" src="https://raw.githubusercontent.com/Pdantasjr/engel-design-emails-template/main/template%2001/images/7.png" alt=""></td>
+                        </tr>
+                    </tbody>
+                </table>
+
+                <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="width: 100%">
+                    <tbody>
+                        <tr>
+                            <td><img style="display: block;" src="https://raw.githubusercontent.com/Pdantasjr/engel-design-emails-template/main/template%2001/images/11.png" alt=""></td>
+                        </tr>
+                    </tbody>
+                </table>
+
+                <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="width: 100%">
+                    <tbody>
+                        <tr>
+                            <td><img style="display: block;" src="https://raw.githubusercontent.com/Pdantasjr/engel-design-emails-template/main/template%2001/images/12.png" alt=""></td>
+                            <td><a href="https://www.swimmingnature.com"><img style="display: block;" src="https://raw.githubusercontent.com/Pdantasjr/engel-design-emails-template/main/template%2001/images/13.png" alt=""></a></td>
+                            <td><a href="https://www.swimmingnature.com/about-us.html"><img style="display: block;" src="https://raw.githubusercontent.com/Pdantasjr/engel-design-emails-template/main/template%2001/images/14.png" alt=""></a></td>
+                            <td><a href="https://book.swimmingnature.com/enrol-web/booking_start"><img style="display: block;" src="https://raw.githubusercontent.com/Pdantasjr/engel-design-emails-template/main/template%2001/images/15.png" alt=""></a></td>
+                            <td><a href="https://www.swimmingnature.com/contact-us.html"><img style="display: block;" src="https://raw.githubusercontent.com/Pdantasjr/engel-design-emails-template/main/template%2001/images/16.png" alt=""></a></td>
+                            <td><img style="display: block;" src="https://raw.githubusercontent.com/Pdantasjr/engel-design-emails-template/main/template%2001/images/17.png" alt=""></td>
+                        </tr>
+                    </tbody>
+                </table>
+                <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="width: 100%">
+                    <tbody>
+                        <tr>
+                            <td><img style="display: block;" src="https://raw.githubusercontent.com/Pdantasjr/engel-design-emails-template/main/template%2001/images/18.png" alt=""></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <div style="margin: 0 auto; width: 800px;  background-color: #FFFFFF;">
+            <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="width: 100%">
+                <tbody>
+                    <tr>
+                        <p style="color: #7f7f7f; font-size: 8pt; text-align: justify; margin: 0 20px; padding: 10px;">This email
+                            and
+                            any attachments to it are confidential and intended solely for the individual or
+                            organisation to whom they are addressed. You must not copy or retransmit this e-mail or its
+                            attachments in whole or in part to anyone else without our permission. The views expressed
+                            in them are those of the individual author and do not necessarily represent the views of
+                            this Company. Whilst we would never knowingly transmit anything containing a virus we cannot
+                            guarantee that this e-mail is virus-free and you should take all steps that you can to
+                            protect your systems against viruses. Swimming Nature UK Limited is registered in England
+                            under Company Registration Number 11028025, and the Registered 843 Finchley Road, London,
+                            England NW11 8NA.</p>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        </div>
+    </body>
+</html>
